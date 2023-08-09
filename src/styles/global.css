@@ -61,6 +61,15 @@ h1 {
 .expanded {
     display: unset;
 }
+
+html.dark {
+    background-color: #000;
+    color: #fff;
+}
+  
+.dark .nav-links a {
+    color: #fff;
+}
   
 @media screen and (min-width: 636px) {
     .nav-links {
