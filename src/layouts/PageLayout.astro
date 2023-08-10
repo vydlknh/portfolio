@@ -1,0 +1,10 @@
+---
+import '../styles/global.css'
+
+const {sectionTitle} = Astro.props;
+---
+    <div class="container">
+        <h1>{sectionTitle}</h1>
+        <slot />
+    </div>
+

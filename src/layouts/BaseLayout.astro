@@ -4,6 +4,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 const { pageTitle } = Astro.props;
+const role = "Front-End Web Developer";
 ---
 
 <html lang="en">
@@ -14,9 +15,20 @@ const { pageTitle } = Astro.props;
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
 	</head>
+
 	<body>
 		<Header />
-		<h1>{pageTitle}</h1>
+		<div class = titleContainer>
+			<div class="column">
+				<h1>{pageTitle}</h1>
+				<h2>{role}</h2>
+				<Footer />
+			</div>
+			<div class="column">
+				<img src = "https://i.pinimg.com/originals/06/12/9a/06129a9a994f0da5d9384ac5919f6e43.png">
+			</div>
+		</div>
+		
 		<slot />
 		<Footer />
 		<script>
