@@ -5,11 +5,59 @@ import Social from '../components/Social.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "Vy Do";
+
+const identity = {
+	hometown: "Hanoi, Vietnam",
+	country: "Greencastle, Indiana",
+	job: "rising sophomore",
+	role: "Front-End Web Intern",
+	school: "DePauw University",
+	majors: "Computer Science and Mathematics",
+	prevExperience: "OnePay Vietnam",
+	curExperience: "open to work",
+	
+}
+
+const skills = ["HTML", "CSS", "JavaScript", "TypeScript", "Java", "C++", "Python", "Astro", "React Native"]
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<PageLayout sectionTitle="About">
-
+		<div id = "about" class = "row">
+			<div id = "column-img" class = "column">
+				<img src = "https://i.imgur.com/0E8a4Uz.jpg" alt="profile picture" style =" width: 25rem; height: 25rem; border-radius: 50%;">
+			</div>
+			<div class = "column">
+				<div class = "info">
+					<ul>
+						<li class="col-small">
+							<h2>Who I am</h2>
+							<span class="line"></span>
+							<p>
+								I am a rising sophomore at {identity.school}, with a double major in {identity.majors}.
+								Originally from {identity.hometown}, I currently live in {identity.country}.
+							</p>
+						</li>
+						<li class="col-small">
+							<h2>Experience</h2>
+							<span class="line"></span>
+							<p>
+								Previously, I worked as a {identity.role} at {identity.prevExperience}. Currently, I am {identity.curExperience}.
+							</p>
+						</li>
+						<li class="col-large">
+							<h2>Hobbies & interest</h2>
+							<span class="line"></span>
+							<p>
+								Professionally, I am interested in machine learning and AI-driven game development, hence I often take online courses and do research on my own. 
+								In my free time, I enjoy baking, hitting the gym, and playing video games!
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</PageLayout>
 </BaseLayout>
  

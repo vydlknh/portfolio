@@ -20,9 +20,10 @@ img {
 }
 
 .titleContainer {
-    margin: 15% 5% 10%;
+    margin: 10% 5% 10%;
     max-width: fit-content;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .titleContainer h1 {
@@ -40,15 +41,55 @@ img {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .column {
-    flex: 50%;
-    max-width: 50%;
-    justify-content: center;
+    width: 100%;
     column-gap: 20px;
 }
 
+#column-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.info {
+    display: flex;
+}
+
+.info ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info ul li {
+    border-radius: 20px;
+    color:#ECE7D5;
+    background-color: #034C3C;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.info ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 10px #000;
+}
+
+.info .line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: #ECE7D5;
+}
 .container h1 {
     font-size: 5rem;
 }
@@ -57,6 +98,7 @@ h1 {
     margin: 1rem 0;
     font-size: 7rem;
     font-family: 'Impact';
+    max-width: max-content;
 }
 
 h1:hover {
@@ -67,7 +109,7 @@ h1:hover {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-family: 'Verdana';
     font-weight: 600;
 }
@@ -120,16 +162,16 @@ p {
     display: unset;
 }
 
-html.dark {
-    background-color: #000;
-    color: white;
+
+[class*="col-"] {
+    width: 100%;
 }
   
-.dark .nav-links a {
-    color: white;
-}
-  
-@media screen and (min-width: 636px) {
+@media screen and (min-width: 977px) {
+    .titleContainer {
+        flex-wrap: nowrap;
+    }
+    
     .nav-links {
         margin-left: 5em;
         display: block;
@@ -146,5 +188,24 @@ html.dark {
     .hamburger {
         display: none;
     }
-  
+
+    .row {
+        flex-wrap: nowrap;
+    }
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+
+    .col-small {
+        width: 49%;
+    }
+
+    .col-large {
+        width: 100%;
+    }
+    
+    #column-img {
+        padding-right: 2.2rem;
+    }
 }
