@@ -60,7 +60,7 @@ img {
 .gallery-col {
     max-width: 33%;
     position: relative;
-    margin: 3rem;
+    margin: 2rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -155,7 +155,7 @@ p {
     padding-right: 20px;
     cursor: pointer;
 }
-  
+
 .hamburger .line {
     display: block;
     width: 40px;
@@ -171,7 +171,7 @@ p {
     display: none;
     margin: 0;
 }
-  
+
 .nav-links a {
     display: flex;
     text-align: center;
@@ -182,12 +182,12 @@ p {
     text-transform: uppercase;
     color: #034C3C;
 }
-  
+
 .nav-links a:hover, a:focus {
     background-color: #DFD6B9;
     border-radius: 10px;
 }
-  
+
 .expanded {
     display: unset;
 }
@@ -196,7 +196,7 @@ p {
 [class*="col-"] {
     width: 100%;
 }
-  
+
 @media screen and (min-width: 977px) {
     .titleContainer {
         flex-wrap: nowrap;
