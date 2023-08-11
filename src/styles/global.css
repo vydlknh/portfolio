@@ -2,7 +2,7 @@ html {
     background-color: #ECE7D5;
     font-family: sans-serif;
 }
-  
+
 body {
     margin-left: 5%;
     margin-right: 5%;
@@ -60,7 +60,7 @@ img {
 .gallery-col {
     max-width: 33%;
     position: relative;
-    margin: 2rem;
+    margin: 1.5rem;
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
@@ -232,5 +232,9 @@ p {
     
     #column-img {
         padding-right: 2.2rem;
+    }
+
+    .gallery-col {
+        max-width: 20%;
     }
 }
