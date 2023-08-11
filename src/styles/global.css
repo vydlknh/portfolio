@@ -138,12 +138,6 @@ h2 {
     font-weight: 600;
 }
 
-h3 {
-    font-size: 1.5rem;
-    font-family: 'Verdana';
-    font-weight: 600;
-}
-
 p {
     font-family: 'Verdana';
     font-size: 1rem;
@@ -238,9 +232,5 @@ p {
     
     #column-img {
         padding-right: 2.2rem;
-    }
-
-    .gallery-col {
-        max-width: 20%;
     }
 }
