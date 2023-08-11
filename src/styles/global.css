@@ -57,6 +57,29 @@ img {
     padding: 1.5rem 0;
 }
 
+.gallery-col {
+    max-width: 33%;
+    position: relative;
+    margin: 3rem;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.gallery-col img {
+    height: 5rem;
+    filter:grayscale(100%);
+    transition: width 0.5s, height 0.5s, transform 0.5s;
+    cursor: pointer;
+}
+
+.gallery-col img:hover {
+    filter: grayscale(0%);
+    height: 6rem;
+}
+
 .info {
     display: flex;
 }
@@ -111,6 +134,12 @@ h1:hover {
 
 h2 {
     font-size: 1.7rem;
+    font-family: 'Verdana';
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
     font-family: 'Verdana';
     font-weight: 600;
 }
@@ -209,5 +238,9 @@ p {
     
     #column-img {
         padding-right: 2.2rem;
+    }
+
+    .gallery-col {
+        max-width: 20%;
     }
 }
