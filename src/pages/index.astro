@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageLayout from '../layouts/PageLayout.astro';
+import DarkLayout from '../layouts/DarkLayout.astro'
 import Social from '../components/Social.astro';
 import Footer from '../components/Footer.astro';
 
@@ -33,51 +34,62 @@ const skills =[
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<PageLayout sectionTitle="About">
-		<div id = "about" class = "row">
-			<div id = "column-img" class = "column">
-				<img src = "https://i.imgur.com/0E8a4Uz.jpg" alt="profile picture" style =" width: 25rem; border-radius: 50%;">
-			</div>
-			<div class = "column">
-				<div class = "info">
-					<ul>
-						<li class="col-small">
-							<h2>Who I am</h2>
-							<span class="line"></span>
-							<p>
-								I am a {identity.job} at {identity.school}, with a double major in {identity.majors}.
-								Originally from {identity.hometown}, I currently live in {identity.country}.
-							</p>
-						</li>
-						<li class="col-small">
-							<h2>Experience</h2>
-							<span class="line"></span>
-							<p>
-								Previously, I worked as a {identity.role} at {identity.prevExperience}. Currently, I am {identity.curExperience}.
-							</p>
-						</li>
-						<li class="col-large">
-							<h2>Hobbies & interest</h2>
-							<span class="line"></span>
-							<p>
-								Professionally, I am interested in machine learning and AI-driven game development, hence I often take online courses and do research on my own. 
-								In my free time, I enjoy baking, hitting the gym, and playing video games!
-							</p>
-						</li>
-					</ul>
+	<section id = "about"></section>
+		<PageLayout sectionTitle="About">
+			<div class = "row">
+				<div id = "column-img" class = "column">
+					<img src = "https://i.imgur.com/0E8a4Uz.jpg" alt="profile picture" style =" width: 25rem; border-radius: 50%;">
+				</div>
+				<div class = "column">
+					<div class = "info">
+						<ul>
+							<li class="col-small">
+								<h2>Who I am</h2>
+								<span class="line"></span>
+								<p>
+									I am a {identity.job} at {identity.school}, with a double major in {identity.majors}.
+									Originally from {identity.hometown}, I currently live in {identity.country}.
+								</p>
+							</li>
+							<li class="col-small">
+								<h2>Experience</h2>
+								<span class="line"></span>
+								<p>
+									Previously, I worked as a {identity.role} at {identity.prevExperience}. Currently, I am {identity.curExperience}.
+								</p>
+							</li>
+							<li class="col-large">
+								<h2>Hobbies & interest</h2>
+								<span class="line"></span>
+								<p>
+									Professionally, I am interested in machine learning and AI-driven game development, hence I often take online courses and do research on my own. 
+									In my free time, I enjoy baking, hitting the gym, and playing video games!
+								</p>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</PageLayout>
+		</PageLayout>
+	</section>	
 
-	<PageLayout sectionTitle="Skills">
-		<div class="row" style="flex-wrap: wrap;">
-			{skills.map((skill) => 
-				<div class ="gallery-col">
-					<img src= `${skill.icon}` >
-					<h3>{skill.name}</h3>
+	<section id="projects">
+		<DarkLayout sectionTitle="Projects">
+		</DarkLayout>
+	</section>
+
+	<section id="skills"></section>
+		<PageLayout sectionTitle="Skills">
+			
+				<div class="row" style="flex-wrap: wrap;">
+					{skills.map((skill) => 
+						<div class ="gallery-col">
+							<img src= `${skill.icon}` >
+							<h3>{skill.name}</h3>
+						</div>
+					)}
 				</div>
-			)}
-		</div>
-	</PageLayout>
+			
+		</PageLayout>
+	</section>
 </BaseLayout>

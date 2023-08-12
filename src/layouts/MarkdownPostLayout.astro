@@ -1,0 +1,13 @@
+---
+import PageLayout from "./PageLayout.astro";
+const { frontmatter } = Astro.props;
+---
+<div class="nav-links" style="top: 0">
+  <a href="/">&#10094;</a>
+</div>
+
+<PageLayout sectionTitle={frontmatter.title}>
+  <p>Created {frontmatter.pubDate.slice(0,10)}</p>
+  <p><em>{frontmatter.description}</em></p>
+  <slot />
+</PageLayout>

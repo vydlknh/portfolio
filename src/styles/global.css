@@ -9,6 +9,7 @@ body {
     max-width: 100%;
     padding: 1rem;
     line-height: 1.5;
+    overflow-x: hidden;
 }
 
 * {
@@ -21,7 +22,7 @@ img {
 }
 
 .titleContainer {
-    margin: 10% 5% 0;
+    margin: 5% 5% 7%;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -34,10 +35,20 @@ img {
 .container {
     align-self: center;
     margin: auto;
-    margin-top: 3.5rem;
     margin-bottom: 1rem;
     padding: 5% 5%;
     border-radius: 20px;
+}
+
+.dark {
+    background-color: #034C3C;
+    color: #ECE7D5;
+    margin-right: -10%;
+}
+
+.dark h1:hover {
+    color: #ECE7D5;
+    text-shadow: 5px 5px #02271F;
 }
 
 .row {
@@ -166,6 +177,15 @@ p {
     margin: 0;
 }
 
+.nav-links button {
+    padding: 0;
+    font-size: 4.5rem;
+    background-color: #ECE7D5;
+    color:#034C3C;
+    border: none;
+    cursor: pointer;
+}
+
 .nav-links a {
     display: flex;
     text-align: center;
@@ -179,7 +199,7 @@ p {
 
 .nav-links a:hover, a:focus {
     background-color: #DFD6B9;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .expanded {
@@ -200,7 +220,6 @@ p {
     .nav-links {
         margin-left: 5em;
         display: block;
-        position: static;
         width: auto;
         background: none;
     }
