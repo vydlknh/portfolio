@@ -17,12 +17,13 @@ body {
 }
 
 img {
-    width: max-content;
+    width: 100%;
     overflow: hidden;
 }
 
 .titleContainer {
     margin: 5% 5% 7%;
+    padding: 5rem 0;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +70,6 @@ img {
 }
 
 .gallery-col {
-    max-width: 33%;
     position: relative;
     margin: 1.5rem;
     padding: 0 2rem;
@@ -81,6 +81,7 @@ img {
 
 .gallery-col img {
     height: 5rem;
+    width: 5rem;
     filter:grayscale(100%);
     transition: width 0.5s, height 0.5s, transform 0.5s;
     cursor: pointer;
@@ -89,6 +90,7 @@ img {
 .gallery-col img:hover {
     filter: grayscale(0%);
     height: 6rem;
+    width: 6rem;
 }
 
 .info {
@@ -211,6 +213,27 @@ p {
     width: 100%;
 }
 
+.project {
+    grid-template-columns: 100%; 
+}
+
+.project li {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    border-radius: 20px;
+    color:#034C3C;
+    background-color: #ECE7D5;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.project a {
+    color: inherit;
+    text-decoration: none;
+}
+
 @media screen and (min-width: 977px) {
     .titleContainer {
         flex-wrap: nowrap;
@@ -253,7 +276,14 @@ p {
         padding-right: 2.2rem;
     }
 
-    .gallery-col {
-        max-width: 20%;
+    .gallery {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+
+    .project {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 5%;
     }
 }

@@ -8,6 +8,8 @@ const { frontmatter } = Astro.props;
 
 <PageLayout sectionTitle={frontmatter.title}>
   <p>Created {frontmatter.pubDate.slice(0,10)}</p>
+  <p>Last updated {frontmatter.lastUpdate.slice(0,10)}</p>
   <p><em>{frontmatter.description}</em></p>
+  <img src={frontmatter.image.url} width="1090" alt={frontmatter.image.alt} />
   <slot />
 </PageLayout>

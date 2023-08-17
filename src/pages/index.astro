@@ -2,9 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PageLayout from '../layouts/PageLayout.astro';
 import DarkLayout from '../layouts/DarkLayout.astro'
-import Social from '../components/Social.astro';
-import Footer from '../components/Footer.astro';
+import Projects from '../components/Projects.astro';
 
+const allPosts = await Astro.glob('../pages/projects/*.md');
 const pageTitle = "Vy Do";
 
 const identity = {
@@ -75,13 +75,16 @@ const skills =[
 
 	<section id="projects">
 		<DarkLayout sectionTitle="Projects">
+			<div class = "project">
+				{allPosts.map((post) => <Projects url={post.url} title={post.frontmatter.title} description={post.frontmatter.description} img = {post.frontmatter.image.url} alt = {post.frontmatter.image.alt}/>)}
+			</div>
 		</DarkLayout>
 	</section>
 
 	<section id="skills"></section>
 		<PageLayout sectionTitle="Skills">
 			
-				<div class="row" style="flex-wrap: wrap;">
+				<div class="gallery"">
 					{skills.map((skill) => 
 						<div class ="gallery-col">
 							<img src= `${skill.icon}` >
@@ -89,7 +92,6 @@ const skills =[
 						</div>
 					)}
 				</div>
-			
 		</PageLayout>
 	</section>
 </BaseLayout>

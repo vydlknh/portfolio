@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Contact from '../components/Contact.astro';
 
 const { pageTitle } = Astro.props;
 const role = "Front-End Web Developer";
@@ -23,7 +23,7 @@ const role = "Front-End Web Developer";
 			<div class="column" style ="padding-top: 5rem">
 				<h1>{pageTitle}</h1>
 				<h2>{role}</h2>
-				<Footer />
+				<Contact />
 			</div>
 			<div class="column">
 				<img src = "https://i.imgur.com/1HG2m8f.png">
@@ -31,7 +31,7 @@ const role = "Front-End Web Developer";
 		</div>
 		
 		<slot />
-		<!-- <Footer /> -->
+
 		<script>
 			import "../script/menu.js";
 		</script>
