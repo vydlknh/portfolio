@@ -3,14 +3,27 @@ import Social from './Social.astro';
 
 ---
 <style>
-    footer {
+    .social {
         display: flex;
         gap: 1rem;
         margin-top: 2rem;
     }
+
+    a {
+        padding: 0.5rem 1rem;
+        color: white;
+        background-color: #034C3C;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    a:hover {
+        background-color: #033A2E;
+    }
 </style>
 
-<footer>
+<div class="social">
     <Social platform="linkedin" username="in/vydlknh/" />
     <Social platform="github" username="vydlknh" />
-</footer>
+    <a href="https://drive.google.com/file/d/13-55mLgVM8Jew7M3iiRDEMnX76QVsUge/view?usp=sharing" target=”_blank”>résumé</a>
+</div>
