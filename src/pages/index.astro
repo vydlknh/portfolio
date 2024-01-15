@@ -10,7 +10,7 @@ const pageTitle = "Vy Do";
 const identity = {
 	hometown: "Hanoi, Vietnam",
 	country: "Greencastle, Indiana",
-	job: "rising sophomore",
+	job: "undergraduate",
 	role: "Front-End Web Intern",
 	school: "DePauw University",
 	majors: "Computer Science and Mathematics",
@@ -23,6 +23,7 @@ const skills =[
 	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png", name: "HTML"},
 	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png", name: "CSS"},
 	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png", name: "JavaScript"},
+	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png", name: "React"},
 	{icon: "https://cdn-icons-png.flaticon.com/256/226/226777.png", name: "Java"},
 	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png", name: "C++"},
 	{icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png", name: "Python"},
@@ -63,7 +64,7 @@ const skills =[
 								<span class="line"></span>
 								<p>
 									Professionally, I am interested in machine learning and AI-driven game development, hence I often take online courses and do research on my own. 
-									In my free time, I enjoy baking, hitting the gym, and playing video games!
+									In my free time, I enjoy baking, hitting the gym, and playing video games :)
 								</p>
 							</li>
 						</ul>
@@ -84,10 +85,10 @@ const skills =[
 	<section id="skills"></section>
 		<PageLayout sectionTitle="Skills">
 			
-				<div class="gallery"">
+				<div class="gallery">
 					{skills.map((skill) => 
 						<div class ="gallery-col">
-							<img src= `${skill.icon}` >
+							<img src = `${skill.icon}` >
 							<h3>{skill.name}</h3>
 						</div>
 					)}
