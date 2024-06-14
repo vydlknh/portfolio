@@ -1,42 +1,38 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+:root {
+  /* Colors and Lightness values */
+  --bulma-scheme-h: 221;
+  --bulma-scheme-s: 14%;
+  --bulma-light-l: 90%;
+  --bulma-light-invert-l: 20%;
+  --bulma-dark-l: 20%;
+  --bulma-dark-invert-l: 90%;
+  --bulma-soft-l: 90%;
+  --bulma-bold-l: 20%;
+  --bulma-soft-invert-l: 20%;
+  --bulma-bold-invert-l: 90%;
+  /* etc. */
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+  /* Color Palettes */
+  --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
+  --bulma-primary-base: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
+  --bulma-primary-rgb: 0, 209, 178;
+  --bulma-primary-h: 25deg;
+  --bulma-primary-s: 100%;
+  --bulma-primary-l: 96.7%;
+  --bulma-primary-00-l: 1%;
+  --bulma-primary-05-l: 6%;
+  --bulma-primary-10-l: 11%;
+  --bulma-primary-15-l: 16%;
+  --bulma-primary-20-l: 21%;
+  /* etc. */
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  /* Typography */
+  --bulma-family-primary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
+  --bulma-family-code: Inconsolata, Hack, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
+  --bulma-size-small: 0.75rem;
+  --bulma-size-normal: 1rem;
+  --bulma-size-medium: 1.25rem;
+  --bulma-size-large: 1.5rem;
+  /* etc. */
 }
