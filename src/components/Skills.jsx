@@ -3,11 +3,11 @@ import Skill from "../components/Skill"
 function Skills() {
 
   return (
-    <div className="container">
+    <div id="skills" className="container">
       <h1 className="title">Skills</h1>
         <Skill name="Python" img="" />
         <Skill name="SQL" img="" />
-        <Skill name="Pytorch" img="" />
+        <Skill name="PyTorch" img="" />
         <Skill name="Javascript" img="" />
         <Skill name="ReactJS" img="" />
         <Skill name="Java" img="" />

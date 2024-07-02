@@ -18,8 +18,8 @@ function App() {
         <Contact />
       </section>
       <About />
-      <Skills />
       <Projects />
+      <Skills />
     </>
   )
 }

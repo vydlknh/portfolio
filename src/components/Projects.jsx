@@ -3,7 +3,7 @@ import Project from "../components/Project"
 function Projects() {
 
   return (
-    <div className="container">
+    <div id="projects" className="container">
       <h1 className="title">Projects</h1>
       <div className="columns">
         <div className="column">
