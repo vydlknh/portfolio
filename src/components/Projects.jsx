@@ -57,7 +57,7 @@ function Projects() {
             name="Portfolio" 
             desc="Source code for this personal portfolio" 
             url="https://github.com/vydlknh/portfolio"
-            img="" 
+            img="/src/img/portfolio.png" 
           />
         </div>
       </div>

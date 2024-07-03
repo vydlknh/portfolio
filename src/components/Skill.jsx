@@ -2,8 +2,8 @@ import React from "react";
 
 const Skill = (props) => {
   return (
-    <div className="container">
-      <img src={props.img} />
+    <div className="container py-2">
+      <img src={props.img} style={{height: "50px"}}/>
       <p>{props.name}</p>
     </div>
   )
