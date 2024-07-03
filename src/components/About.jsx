@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
-
 function About() {
 
   return (
-    <div id="about" className="container">
-      <h1 className="title">About me</h1>
+    <div id="about" className="container pb-5">
+      <h1 className="title has-text-primary">About me</h1>
       <div className="columns">
         <div className="column">
           <p>I am a undergraduate at DePauw University, with a double major in Computer Science and Mathematics. 
@@ -16,7 +14,8 @@ function About() {
           </p>
           <br />
           <p>Curiousity is my greatest personality trait. I am never not eager to learn something new, and my extensive list of
-            hobbies and interests is proof of that. Gaming, weightlifting, crochet, photography, the list goes on.
+            hobbies and interests is proof of that. Ask me about my favourite video game, my weightlifting experience, or my
+            favourite artist!
           </p>
         </div>
         <div className="column is-two-fifths">

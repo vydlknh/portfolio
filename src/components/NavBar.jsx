@@ -19,22 +19,9 @@ function NavBar() {
             <a className="navbar-item" href="#about">
               About Me
             </a>
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link" href="#projects">
-                Projects
-              </a>
-              <div className="navbar-dropdown">
-                <a className="navbar-item">
-                  Weather prediction
-                </a>
-                <a className="navbar-item">
-                  Football match prediction
-                </a>
-                <a className="navbar-item">
-                  FarmFinder
-                </a>
-              </div>
-            </div>
+            <a className="navbar-item" href="#projects">
+              Projects
+            </a>
             <a className="navbar-item" href="#skills">
               Skills
             </a>
