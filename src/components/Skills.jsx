@@ -10,16 +10,16 @@ function Skills() {
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Programming languages</h3>
           <div className="columns has-text-centered">
             <div className="column">
-              <Skill name="Python" img="/src/icons/python.png" />
-              <Skill name="Java" img="/src/icons/java.png" />
+              <Skill name="Python" img="https://i.imgur.com/Qoa7EvS.png" />
+              <Skill name="Java" img="https://i.imgur.com/owDUiW3.png" />
             </div>
             <div className="column">
-              <Skill name="MySQL" img="/src/icons/mysql.png" />
-              <Skill name="C++" img="/src/icons/cpp.png" />
+              <Skill name="MySQL" img="https://i.imgur.com/fLwxLkV.png" />
+              <Skill name="C++" img="https://i.imgur.com/4xvu2go.png" />
             </div>
             <div className="column">
-              <Skill name="Javascript" img="/src/icons/js.png" />
-              <Skill name="Matlab" img="/src/icons/matlab.png" />
+              <Skill name="Javascript" img="https://i.imgur.com/TjtHht8.png" />
+              <Skill name="Matlab" img="https://i.imgur.com/7GzzS3T.png" />
             </div>
           </div>
         </div>
@@ -27,15 +27,15 @@ function Skills() {
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Tools</h3>
           <div className="columns  has-text-centered">
             <div className="column">
-              <Skill name="Tableau" img="/src/icons/tableau.png" />
-              <Skill name="Git" img="/src/icons/git.png" />
+              <Skill name="Tableau" img="https://i.imgur.com/5vAVbsR.png" />
+              <Skill name="Git" img="https://i.imgur.com/fsh6mSr.png" />
             </div>
             <div className="column">
-              <Skill name="Jupyter" img="/src/icons/jupyter.png" />
-              <Skill name="VSCode" img="/src/icons/vsc.png" />
+              <Skill name="Jupyter" img="https://i.imgur.com/O8dCb1q.png" />
+              <Skill name="VSCode" img="https://i.imgur.com/S5s6XWy.png" />
             </div>
             <div className="column">
-              <Skill name="Excel" img="/src/icons/excel.png" />
+              <Skill name="Excel" img="https://i.imgur.com/OZwEbKP.png" />
             </div>
           </div>
         </div>
@@ -43,19 +43,19 @@ function Skills() {
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Frameworks & libraries</h3>
           <div className="columns has-text-centered">
             <div className="column">
-              <Skill name="PyTorch" img="/src/icons/pytorch.png" />
-              <Skill name="NumPy" img="/src/icons/np.png" />
-              <Skill name="Seaborn" img="/src/icons/sb.png" />
+              <Skill name="PyTorch" img="https://i.imgur.com/bVE2ErA.png" />
+              <Skill name="NumPy" img="https://i.imgur.com/gNzHU6R.png" />
+              <Skill name="Seaborn" img="https://i.imgur.com/qE3DQbd.png" />
             </div>
             <div className="column">
-              <Skill name="LlamaIndex" img="/src/icons/li.jpeg" />
-              <Skill name="Scikit-learn" img="/src/icons/skl.png" />
-              <Skill name="React" img="/src/icons/react.webp" />
+              <Skill name="LlamaIndex" img="https://i.imgur.com/D59sZ8t.jpeg" />
+              <Skill name="Scikit-learn" img="https://i.imgur.com/anCqpD5.png" />
+              <Skill name="React" img="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" />
             </div>
             <div className="column">
-              <Skill name="Pandas" img="/src/icons/pd.png" />
-              <Skill name="Matplotlib" img="/src/icons/mpl.png" />
-              <Skill name="Spring" img="/src/icons/spring.png" />
+              <Skill name="Pandas" img="https://i.imgur.com/0td6JvC.png" />
+              <Skill name="Matplotlib" img="https://i.imgur.com/1qQQrG1.png" />
+              <Skill name="Spring" img="https://i.imgur.com/YBm7tAN.png" />
             </div>
           </div>
         </div>
