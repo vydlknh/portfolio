@@ -17,6 +17,16 @@ function Projects() {
         </div>
         <div className="column">
           <Project 
+            name="NBA Players Statistics Analysis" 
+            desc="This project analyzes players' statistics for the NBA 2023-2024 playoffs" 
+            url="https://github.com/vydlknh/nba-stats"
+            img="https://i.imgur.com/faUudZv.png"
+          />
+        </div>
+      </div>
+      <div className="columns">
+        <div className="column">
+          <Project 
             name="Weather prediction using periodic model" 
             desc="This project aims to find a periodic function of best fit for weather data from 2012 to 2015, and predict upcoming weather based on this model.
             This project is part of the Numerical Analysis course." 
