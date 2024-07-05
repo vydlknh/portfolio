@@ -1,4 +1,6 @@
 # Personal portfolio
-Created using
+## Overview
+Source code for my personal portfolio
+## Technology
 * Javascript (ReactJS)
 * CSS (Bulma)
