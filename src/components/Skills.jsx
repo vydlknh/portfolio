@@ -8,7 +8,7 @@ function Skills() {
       <div className="columns">
         <div className="column">
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Programming languages</h3>
-          <div className="columns has-text-centered">
+          <div className="columns has-text-centered is-mobile">
             <div className="column">
               <Skill name="Python" img="https://i.imgur.com/Qoa7EvS.png" alt="Vy Do Python"/>
               <Skill name="Java" img="https://i.imgur.com/owDUiW3.png" alt="Vy Do Java"/>
@@ -25,7 +25,7 @@ function Skills() {
         </div>
         <div className="column">
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Tools</h3>
-          <div className="columns  has-text-centered">
+          <div className="columns has-text-centered is-mobile">
             <div className="column">
               <Skill name="Tableau" img="https://i.imgur.com/5vAVbsR.png" alt="Vy Do Tableau"/>
               <Skill name="Git" img="https://i.imgur.com/fsh6mSr.png" alt="Vy Do Git"/>
@@ -41,7 +41,7 @@ function Skills() {
         </div>
         <div className="column">
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Frameworks & libraries</h3>
-          <div className="columns has-text-centered">
+          <div className="columns has-text-centered is-mobile">
             <div className="column">
               <Skill name="PyTorch" img="https://i.imgur.com/bVE2ErA.png" alt="Vy Do PyTorch"/>
               <Skill name="NumPy" img="https://i.imgur.com/gNzHU6R.png" alt="Vy Do NumPy"/>
