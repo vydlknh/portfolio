@@ -3,8 +3,8 @@ import Skill from "../components/Skill"
 function Skills() {
 
   return (
-    <div id="skills" className="container py-5">
-      <h1 className="title has-text-primary">Skills</h1>
+    <section id="skills" className="container py-5">
+      <h2 className="title has-text-primary">Skills</h2>
       <div className="columns">
         <div className="column">
           <h3 className="is-size-4 has-text-centered has-text-weight-bold has-text-primary-30 py-2">Programming languages</h3>
@@ -60,7 +60,7 @@ function Skills() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

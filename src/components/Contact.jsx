@@ -16,7 +16,7 @@ function Contact() {
             </span>
             <span>GitHub</span>
           </a>
-          <a className="button" href="https://drive.google.com/file/d/1Y4WMh5EACaxPFf8WR3K8wr_qr5u7DBTx/view?usp=sharing">
+          <a className="button" href="https://drive.google.com/file/d/1BX7vgQq2zXR1X74hrsAw8PxFsSuss9K_/view?usp=sharing">
             <span className="icon">
               <i class="fa-solid fa-file"></i>
             </span>

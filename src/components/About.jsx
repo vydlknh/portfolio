@@ -1,8 +1,8 @@
 function About() {
 
   return (
-    <div id="about" className="container pb-5">
-      <h1 className="title has-text-primary">About me</h1>
+    <section id="about" className="container pb-5">
+      <h2 className="title has-text-primary">About me</h2>
       <div className="columns">
         <div className="column">
           <p>I am a undergraduate at DePauw University, with a double major in Computer Science and Mathematics. 
@@ -19,13 +19,14 @@ function About() {
           </p>
         </div>
         <div className="column is-two-fifths">
-          <p className="pb-2"> <i class="fa-solid fa-repeat"></i> Currently on repeat:</p>
+          {/* <p className="pb-2"> <i class="fa-solid fa-repeat"></i> Currently on repeat:</p>
           <iframe src="https://open.spotify.com/embed/track/0Qh8dlEJ3jVWk57Ql6XrdS?utm_source=generator&theme=0" 
           width="100%" height="230" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-          loading="lazy"></iframe>
+          loading="lazy"></iframe> */}
+          <img src="https://i.imgur.com/zOFYpey.jpeg" alt="photo of myself" />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -4,8 +4,8 @@ import Project from "../components/Project"
 function Projects() {
 
   return (
-    <div id="projects" className="container py-5">
-      <h1 className="title has-text-primary">Projects</h1>
+    <section id="projects" className="container py-5">
+      <h2 className="title has-text-primary">Projects</h2>
       <div className="columns">
         <div className="column">
           <Project 
@@ -71,7 +71,7 @@ function Projects() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
