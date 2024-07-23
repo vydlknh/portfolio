@@ -9,15 +9,15 @@ function Contact() {
               <div className="level-item">
                 <a className="button" href="https://www.linkedin.com/in/vydlknh/">
                   <span className="icon">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                   </span>
                   <span>LinkedIn</span>
                 </a>
               </div>
               <div className="level-item">
                 <a className="button" href="https://github.com/vydlknh">  
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
+                  <span className="icon">
+                    <i className="fab fa-github"></i>
                   </span>
                   <span>GitHub</span>
                 </a>
@@ -25,7 +25,7 @@ function Contact() {
               <div className="level-item">
                 <a className="button" href="https://drive.google.com/file/d/1BX7vgQq2zXR1X74hrsAw8PxFsSuss9K_/view?usp=sharing">
                   <span className="icon">
-                    <i class="fa-solid fa-file"></i>
+                    <i className="fa-solid fa-file"></i>
                   </span>
                   <span>Resume</span>
                 </a>
