@@ -23,7 +23,7 @@ function About() {
           <iframe src="https://open.spotify.com/embed/track/0Qh8dlEJ3jVWk57Ql6XrdS?utm_source=generator&theme=0" 
           width="100%" height="230" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
           loading="lazy"></iframe> */}
-          <img src="https://i.imgur.com/zOFYpey.jpeg" alt="photo of myself" />
+          <img src="https://i.imgur.com/zOFYpey.jpeg" alt="Vy Do photo" />
         </div>
       </div>
     </section>
