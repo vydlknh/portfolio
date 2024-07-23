@@ -32,10 +32,11 @@ function Skills() {
             </div>
             <div className="column">
               <Skill name="Jupyter" img="https://i.imgur.com/O8dCb1q.png" alt="Vy Do Jupyter"/>
-              <Skill name="VSCode" img="https://i.imgur.com/S5s6XWy.png" alt="Vy Do VSCode"/>
+              <Skill name="Docker" img="https://i.imgur.com/YAWfC8Z.png" />
             </div>
             <div className="column">
               <Skill name="Excel" img="https://i.imgur.com/OZwEbKP.png" />
+              <Skill name="VSCode" img="https://i.imgur.com/S5s6XWy.png" alt="Vy Do VSCode"/>
             </div>
           </div>
         </div>
