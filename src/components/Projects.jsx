@@ -62,6 +62,8 @@ function Projects() {
             img="https://i.imgur.com/0vUVSam.gif" 
           />
         </div>
+      </div>
+      {/* <div className="columns">
         <div className="column">
           <Project 
             name="Portfolio" 
@@ -70,7 +72,8 @@ function Projects() {
             img="https://i.imgur.com/EP0o1Yr.png" 
           />
         </div>
-      </div>
+        <div className="column"></div>
+      </div> */}
     </section>
   )
 }
