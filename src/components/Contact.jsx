@@ -23,7 +23,7 @@ function Contact() {
                 </a>
               </div>
               <div className="level-item">
-                <a className="button" href="https://drive.google.com/file/d/1BX7vgQq2zXR1X74hrsAw8PxFsSuss9K_/view?usp=sharing">
+                <a className="button" href="https://drive.google.com/file/d/1cZugw5Dak72sCSDsPFyAHs5y6j5yXiQE/view?usp=drive_link">
                   <span className="icon">
                     <i className="fa-solid fa-file"></i>
                   </span>

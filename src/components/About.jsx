@@ -9,7 +9,7 @@ function About() {
             Originally from Hanoi, Vietnam, I currently live in Greencastle, Indiana.
           </p>
           <br />
-          <p>While having past experience with web development, I am interested in working in Data Science. 
+          <p>While having past experience with web development, I am currently interested in working in Data Science. 
             I am passionate about Machine Learning, specifically neural networks, and its applications in healthcare and medical research.
           </p>
           <br />

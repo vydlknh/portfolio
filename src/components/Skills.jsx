@@ -47,6 +47,7 @@ function Skills() {
               <Skill name="PyTorch" img="https://i.imgur.com/bVE2ErA.png" alt="Vy Do PyTorch"/>
               <Skill name="NumPy" img="https://i.imgur.com/gNzHU6R.png" alt="Vy Do NumPy"/>
               <Skill name="Seaborn" img="https://i.imgur.com/qE3DQbd.png" alt="Vy Do Seaborn"/>
+              <Skill name="Vue" img="https://brandlogos.net/wp-content/uploads/2022/01/vue.js-logo-brandlogo.net_-512x512.png" alt="Vy Do Vue"/>
             </div>
             <div className="column">
               <Skill name="LlamaIndex" img="https://i.imgur.com/D59sZ8t.jpeg" alt="Vy Do LlamaIndex"/>

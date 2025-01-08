@@ -9,7 +9,7 @@ const Project = (props) => {
       <a className="button my-2" href={props.url} target="_blank">
         <span>Source code</span>
         <span className="icon">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <i className="fa-solid fa-arrow-up-right-from-square"></i>
         </span>
       </a>
     </div>
